@@ -1,0 +1,27 @@
+{
+	"name": "@1backend/crufterr",
+	"version": "0.0.1",
+	"description": "Clients for 1Backend services of crufterr",
+	"main": "./lib/index.js",
+	"typings": "./lib/index.d.ts",
+	"scripts": {
+	  "prepare": "npm run build",
+	  "build": "tsc"
+	},
+	"keywords": [
+	  "typescript",
+	  "node"
+	],
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/1backend/crufterr.git"
+	},
+	"dependencies": {
+	  "@angular/core": "5.0.0",
+	  "@angular/common": "5.0.0",
+	  "@1backend/ng-client": "0.0.1",
+
+	  "rxjs": "5.5.2",
+	  "zone.js": "0.8.14"
+	}
+  }
